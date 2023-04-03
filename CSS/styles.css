@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: black;
+	background-color: whitesmoke;
 
 }
 
@@ -25,7 +25,7 @@ body {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
-    background-color: #550A35;
+    background-color: black;
 
 }
 
@@ -48,6 +48,7 @@ nav {
     padding: 25px 10px 0 10px;
     float: left;
     text-align: center;
+	color: gray; 
 }
 
 nav ul {
@@ -66,6 +67,7 @@ nav ul li a {
 	
 }
 
+
 nav ul li a:hover {
     background: gray;
     border-radius: 10px;
@@ -81,7 +83,7 @@ nav ul li a:hover {
     color: gray;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricpaper.jpg); 
+     
 }
 
 #main p {
@@ -122,6 +124,7 @@ h2 {
     font-size: 1.5em;
     text-align: center;
     padding-bottom: 0.5em;
+	 
 	
 }
 
@@ -129,6 +132,7 @@ h3 {
     text-align: left;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+	
 	
 }
 
@@ -157,11 +161,13 @@ footer a:link {
 }
 
 footer a:visited {
-    color: navy;
+    color: white;
     background-color: grey;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+	color: black;
+	
 }
