@@ -12,6 +12,7 @@
 * {
     margin: 0; 
     padding: 0;
+	
 }
 
 html {
@@ -29,15 +30,16 @@ body {
 
 
 
-
 #container {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
     background-color: black;
 	border-radius: 25px;
+	
 
 }
+
 
 
 header {
@@ -104,14 +106,16 @@ nav ul li a:hover {
      
 }
 
+
 #main p {
     text-indent: 1.5em;
+	
 	
 }
 
 figure{
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -140,7 +144,7 @@ aside p {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.0em;
     text-align: center;
     padding-bottom: 0.5em;
 	 
@@ -151,9 +155,14 @@ h3 {
     text-align: left;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
-	
+	font-size: 2.0em;	
 	
 }
+h6{
+	font-size: 1.2em;
+	text-align: center;
+}
+
 
 footer {
     width: 910px;
@@ -193,15 +202,33 @@ footer a:hover {
 
 footer {
 	border: solid black;
-	width: 900px;
+	width: 908px;
 	font-size: 1.5em;
 	border-radius: 25px;
 }
 
 .center {
-	text-align: center;
+	text-align: left;
 }
 
 .justify {
 	text-align: justify;
+	
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.imgCen {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+.txtCen {
+	text-align: center;
 }
