@@ -8,6 +8,9 @@
   
 
 */
+html{
+	
+}
 
 * {
     margin: 0; 
@@ -15,10 +18,7 @@
 	
 }
 
-html {
-	
-	
-}
+
 
 body {
     font-size: 1.1em;
@@ -132,6 +132,7 @@ aside {
     padding: 10px;
     float: right;
 	color: gray;
+	
 
 	
 	
@@ -262,3 +263,7 @@ h3.hotbeef{
 p.address {
 	text-align: center;
 }
+.quick {
+	text-align: center;
+}
+
